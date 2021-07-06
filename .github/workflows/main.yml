@@ -1,5 +1,6 @@
 # Comment from Jimmy
 # Comment from Scott
+name: build and sigma scan
 on: [push]
   
 jobs:
