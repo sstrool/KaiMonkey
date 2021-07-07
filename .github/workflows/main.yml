@@ -7,7 +7,7 @@ jobs:
   sigma_code_scanning_run_steps:
     runs-on: ubuntu-latest
     container:
-      image: docker.io/sigsynopsys/sigma-release-image:latest
+      image: docker.io/sstrool/sigma:latest
       credentials:
         username: ${{ secrets.DOCKERHUB_SIGSYNOPSYS_USERNAME }}
         password: ${{ secrets.DOCKERHUB_SIGSYNOPSYS_PASSWORD }}
